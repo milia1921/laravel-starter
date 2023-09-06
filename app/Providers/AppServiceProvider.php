@@ -30,10 +30,10 @@ class AppServiceProvider extends ServiceProvider
     {
         $menu = MenusManager::register('backend_sidebar');
 
-        // $menu->route('frontend.index', __('Home Page'))->icon('nav-icon fa-solid fa-cubes')->order(1);
-        $menu->route('frontend.index', __('Home Page'))->order(1);
-        $menu->route('frontend.posts.index', __('Post'))->order(1);
+        // $menu->route('frontend.index', fn () => __('Home Page'))->icon('nav-icon fa-solid fa-cubes')->order(1);
+        $menu->route('frontend.index', fn () => __('Home Page'))->order(1);
+        // $menu->route('frontend.posts.index', fn () => __('Post'))->order(1);
 
-        $menu->route('backend.dashboard', __('Dashboard'))->if(fn () => Auth()->check() && Auth()->user()->can('view_backend'));
+        $menu->route('backend.dashboard', fn () => __('Dashboard'))->if(fn () => Auth()->check() && Auth()->user()->can('view_backend'));
     }
 }

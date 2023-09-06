@@ -1179,16 +1179,16 @@
         },
         {
             "name": "hexadog/laravel-menus-manager",
-            "version": "v1.2.2",
+            "version": "v1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hexadog/laravel-menus-manager.git",
-                "reference": "265afeebd8f9d918a06656c153e52fe487451b94"
+                "reference": "d28a7ab1ad8c075c4e44cd210b5ad26904138ac3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hexadog/laravel-menus-manager/zipball/265afeebd8f9d918a06656c153e52fe487451b94",
-                "reference": "265afeebd8f9d918a06656c153e52fe487451b94",
+                "url": "https://api.github.com/repos/hexadog/laravel-menus-manager/zipball/d28a7ab1ad8c075c4e44cd210b5ad26904138ac3",
+                "reference": "d28a7ab1ad8c075c4e44cd210b5ad26904138ac3",
                 "shasum": ""
             },
             "require": {
@@ -1230,7 +1230,7 @@
                 "issues": "https://github.com/hexadog/laravel-menus-manager/issues",
                 "source": "https://github.com/hexadog/laravel-menus-manager"
             },
-            "time": "2023-04-04T10:11:16+00:00"
+            "time": "2023-09-06T12:26:20+00:00"
         },
         {
             "name": "intervention/image",
@@ -2737,16 +2737,16 @@
         },
         {
             "name": "nasirkhan/module-manager",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nasirkhan/module-manager.git",
-                "reference": "482e10e425f55e3064f2b5bf9b3ee23f943e40ae"
+                "reference": "302d34b7edd94e3cae4dc23602c1e9609f761983"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nasirkhan/module-manager/zipball/482e10e425f55e3064f2b5bf9b3ee23f943e40ae",
-                "reference": "482e10e425f55e3064f2b5bf9b3ee23f943e40ae",
+                "url": "https://api.github.com/repos/nasirkhan/module-manager/zipball/302d34b7edd94e3cae4dc23602c1e9609f761983",
+                "reference": "302d34b7edd94e3cae4dc23602c1e9609f761983",
                 "shasum": ""
             },
             "require": {
@@ -2789,9 +2789,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nasirkhan/module-manager/issues",
-                "source": "https://github.com/nasirkhan/module-manager/tree/v1.2.0"
+                "source": "https://github.com/nasirkhan/module-manager/tree/v1.3.0"
             },
-            "time": "2023-07-30T06:41:00+00:00"
+            "time": "2023-09-06T10:33:39+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -7983,16 +7983,16 @@
         },
         {
             "name": "laravel/pint",
-            "version": "v1.13.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/pint.git",
-                "reference": "a19bd99c91b158f33a4c5ffe9653d17a921424de"
+                "reference": "22f204242d68095b3ba7dab5d3ef0240454a4652"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pint/zipball/a19bd99c91b158f33a4c5ffe9653d17a921424de",
-                "reference": "a19bd99c91b158f33a4c5ffe9653d17a921424de",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/22f204242d68095b3ba7dab5d3ef0240454a4652",
+                "reference": "22f204242d68095b3ba7dab5d3ef0240454a4652",
                 "shasum": ""
             },
             "require": {
@@ -8045,7 +8045,7 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
-            "time": "2023-09-05T15:45:33+00:00"
+            "time": "2023-09-06T11:03:34+00:00"
         },
         {
             "name": "laravel/sail",
