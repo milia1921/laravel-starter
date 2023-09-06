@@ -33,7 +33,8 @@ class AppServiceProvider extends ServiceProvider
 
         // $menu->route('frontend.index', __('Home Page'))->icon('nav-icon fa-solid fa-cubes')->order(1);
         $menu->route('frontend.index', __('Home Page'))->order(1);
+        $menu->route('frontend.posts.index', __('Post'))->order(1);
 
-        $menu->route('backend.dashboard', __('Backend'))->if(fn () => Auth()->check() && Auth()->user()->can('view_backend'));
+        $menu->route('backend.dashboard', __('Dashboard'))->if(fn () => Auth()->check() && Auth()->user()->can('view_backend'));
     }
 }
